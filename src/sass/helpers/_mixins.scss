@@ -1,0 +1,30 @@
+// Media Query
+@mixin screen ($size) {
+  @media screen and ( min-width: map-get($breakpoints, $size) ) {
+    @content;
+  }
+}
+
+// body text
+@mixin body-text{
+  color: $white;
+  /* Body */
+  font-family: Sofia Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 140%;
+}
+
+// Tag text
+@mixin tag-text{
+  color: $lightBlue;
+  font-feature-settings: 'liga' off;
+  font-family: Sofia Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 19.2px */
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,35 @@
+.hero-breadcrumb{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+
+  &__bullet{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  &__link{
+    text-decoration: none;
+    color: $lightGrey;
+    font-family: Sofia Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14.4px;
+
+    &--active{
+      color: $lightBlue;
+    }
+
+    &--active:hover{
+      color: $lightBlue !important;
+    }
+  }
+
+
+  &__link:hover{
+    color: $lightGrey;
+  }
+
+}
+
