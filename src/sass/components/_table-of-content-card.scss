@@ -14,4 +14,26 @@
     margin-bottom: 30px;
     @include tag-text
   }
+
+  &__list{
+    display: flex;
+    padding: 20px 0 20px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+    width: 100%;
+    border-bottom: 1px solid rgba(141, 153, 174, 0.30);
+    border-top: 1px solid rgba(141, 153, 174, 0.30);
+
+    &__item{
+      color: $grey;
+      margin: 0;
+      @include title-6;
+
+      &--active{
+        color: $blue !important;
+      }
+    }
+  }
 }

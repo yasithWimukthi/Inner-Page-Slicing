@@ -28,3 +28,12 @@
   letter-spacing: 1.6px;
   text-transform: uppercase;
 }
+
+// Tittle 6
+@mixin title-6{
+  font-family: Sofia Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
