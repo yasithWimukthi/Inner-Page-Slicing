@@ -46,3 +46,20 @@
   font-weight: 700;
   line-height: 120%;
 }
+
+// Tittle 2
+@mixin title-2{
+  font-family: Sofia Pro;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 48px */
+}
+
+@mixin body-big{
+  font-family: Sofia Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 140%; /* 28px */
+}

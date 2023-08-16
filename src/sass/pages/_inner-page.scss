@@ -36,3 +36,17 @@
     margin: 0;
   }
 }
+
+.section-one{
+  &__heading{
+    @include title-2;
+    color: $grey-1;
+    margin-bottom: 30px;
+  }
+
+  &__content{
+    @include body-big;
+    color: $grey-1;
+    margin-bottom: 40px;
+  }
+}
