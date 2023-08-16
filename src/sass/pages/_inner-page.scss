@@ -49,4 +49,33 @@
     color: $grey-1;
     margin-bottom: 40px;
   }
+
+  .section-one-list{
+    list-style: none;
+    padding: 0;
+
+    &__item{
+      position: relative;
+      color: $grey-1;
+      font-family: Sofia Pro;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 140%; /* 28px */
+      display: flex;
+      align-items: center;
+    }
+
+    &__item::before{
+      content: ""; /* Empty content to insert the SVG as a background */
+      background-image: url('../../../assets/img/section-one-bullet.svg'); /* Replace with your SVG path */
+      background-size: contain; /* Adjust to fit the size of your SVG */
+      background-repeat: no-repeat; /* Prevent repeating of the SVG */
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      margin-right: 12px; /* Adjust spacing between the bullet and text */
+      vertical-align: middle;
+    }
+  }
 }
