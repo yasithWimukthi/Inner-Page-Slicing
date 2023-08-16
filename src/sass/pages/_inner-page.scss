@@ -53,6 +53,7 @@
   .section-one-list{
     list-style: none;
     padding: 0;
+    margin-bottom: 40px;
 
     &__item{
       position: relative;
@@ -77,5 +78,14 @@
       margin-right: 12px; /* Adjust spacing between the bullet and text */
       vertical-align: middle;
     }
+  }
+}
+
+.section-two{
+  margin-top: 80px;
+  &__heading{
+    @include title-2;
+    color: $grey-1;
+    margin-bottom: 30px;
   }
 }
