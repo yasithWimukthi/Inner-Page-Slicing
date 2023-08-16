@@ -1,3 +1,38 @@
 .main-content{
   margin-top: 80px;
 }
+
+.tags-container{
+  margin-top: 40px;
+  width: 90%;
+
+
+  &__heading{
+    @include tag-text;
+    color: $grey-1;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  &__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .page-tag{
+    display: flex;
+    padding: 8px 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    width: 77px;
+    background: rgba(74, 172, 255, 0.20);
+  }
+
+  .page-tag p{
+    @include tag-2;
+    color: $lightBlue;
+    margin: 0;
+  }
+}

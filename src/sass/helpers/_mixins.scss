@@ -29,6 +29,15 @@
   text-transform: uppercase;
 }
 
+// Tag 2
+@mixin tag-2{
+  font-family: Sofia Pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 14.4px */
+}
+
 // Tittle 6
 @mixin title-6{
   font-family: Sofia Pro;
