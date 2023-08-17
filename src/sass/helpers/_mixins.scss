@@ -79,3 +79,11 @@
   font-weight: 700;
   line-height: 120%; /* 36px */
 }
+
+@mixin body{
+  font-family: Sofia Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 140%; /* 22.4px */
+}
