@@ -358,3 +358,46 @@
     margin-bottom: 140px;
   }
 }
+
+.suggestion-section{
+  height: auto;
+  padding: 140px 0;
+  background: linear-gradient(180deg, rgba(231, 239, 244, 0.50) 0%, rgba(231, 239, 244, 0.00) 100%);
+
+  &__heading{
+    @include title-2;
+    color: $grey-1;
+    margin-bottom: 80px;
+  }
+}
+
+.suggestion-card{
+  height: 500px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 8px;
+  background: $white;
+
+  &__img{
+    width: 100%;
+    overflow: hidden;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  }
+
+  &__content{
+    padding: 30px;
+  }
+
+  &__heading{
+    @include title-5;
+    color: $grey-1;
+    margin-bottom: 40px;
+  }
+
+
+}

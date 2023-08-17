@@ -87,3 +87,12 @@
   font-weight: 300;
   line-height: 140%; /* 22.4px */
 }
+
+@mixin title-5{
+  /* Title 5 */
+  font-family: Sofia Pro;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 28.8px */
+}
