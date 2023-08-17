@@ -1,26 +1,26 @@
-.main-content{
+.main-content {
   margin-top: 80px;
 }
 
-.tags-container{
+.tags-container {
   margin-top: 40px;
   width: 90%;
 
 
-  &__heading{
+  &__heading {
     @include tag-text;
     color: $grey-1;
     text-transform: uppercase;
     margin-bottom: 30px;
   }
 
-  &__list{
+  &__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
 
-  .page-tag{
+  .page-tag {
     display: flex;
     padding: 8px 20px;
     align-items: center;
@@ -30,32 +30,32 @@
     background: rgba(74, 172, 255, 0.20);
   }
 
-  .page-tag p{
+  .page-tag p {
     @include tag-2;
     color: $lightBlue;
     margin: 0;
   }
 }
 
-.section-one{
-  &__heading{
+.section-one {
+  &__heading {
     @include title-2;
     color: $grey-1;
     margin-bottom: 30px;
   }
 
-  &__content{
+  &__content {
     @include body-big;
     color: $grey-1;
     margin-bottom: 40px;
   }
 
-  .section-one-list{
+  .section-one-list {
     list-style: none;
     padding: 0;
     margin-bottom: 40px;
 
-    &__item{
+    &__item {
       position: relative;
       color: $grey-1;
       font-family: Sofia Pro;
@@ -67,7 +67,7 @@
       align-items: center;
     }
 
-    &__item::before{
+    &__item::before {
       content: ""; /* Empty content to insert the SVG as a background */
       background-image: url('../../../assets/img/section-one-bullet.svg'); /* Replace with your SVG path */
       background-size: contain; /* Adjust to fit the size of your SVG */
@@ -81,11 +81,59 @@
   }
 }
 
-.section-two{
+.section-two {
   margin-top: 80px;
+
+  &__heading {
+    @include title-2;
+    color: $grey-1;
+    margin-bottom: 30px;
+  }
+
+  &__content {
+    @include body-big;
+    color: $grey-1;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+
+  &__img {
+    background-image: url("../../../assets/img/section 2 img.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 430px;
+    border-radius: 8px;
+
+    &--caption{
+      @include body-small;
+      color: $grey-1;
+      margin-bottom: 80px;
+      margin-top: 20px;
+    }
+  }
+}
+
+.section-three{
   &__heading{
     @include title-2;
     color: $grey-1;
     margin-bottom: 30px;
+  }
+  &__content{
+    @include body-big;
+    color: $grey-1;
+    margin-bottom: 40px;
+  }
+  &__img{
+    background-image: url("../../../assets/img/section 3 img.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 430px;
+    border-radius: 8px;
+    margin-bottom: 80px;
   }
 }

@@ -63,3 +63,11 @@
   font-weight: 300;
   line-height: 140%; /* 28px */
 }
+
+@mixin body-small{
+  font-family: Sofia Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 140%; /* 19.6px */
+}
