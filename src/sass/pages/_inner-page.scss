@@ -439,3 +439,70 @@
     font-feature-settings: 'liga' off;
   }
 }
+
+.subscribe-img{
+    width: 100vw;
+}
+
+.subscribe-section{
+  background-image: url("../../../assets/img/hero-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: auto;
+  width: 100vw;
+  padding: 100px 135px;
+
+  &__left p{
+    color: $white;
+    font-family: Sofia Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */
+    width: 60%;
+  }
+
+  &__right{
+
+    p{
+      color: $white;
+      font-family: Sofia Pro;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 140%; /* 42px */
+    }
+
+    .form__input{
+      border-radius: 6px;
+      border: 1px solid rgba(141, 153, 174, 0.30);
+      background: #FFF;
+      box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+      display: flex;
+      padding: 18px 20px;
+      align-items: center;
+      gap: 20px;
+      flex: 1 0 0;
+      align-self: stretch;
+      margin-right: 15px;
+    }
+
+    .form__button{
+      border-radius: 6px;
+      background: var(--gradient-2, linear-gradient(180deg, #F8D170 0%, #FEAC45 100%));
+      display: flex;
+      padding: 20px 30px 18px 30px;
+      align-items: center;
+      gap: 20px;
+      color: var(--grey-1, #212336);
+      font-feature-settings: 'liga' off;
+      font-family: Sofia Pro;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 100%;
+      border: none;
+    }
+  }
+}
