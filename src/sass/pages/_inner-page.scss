@@ -371,6 +371,11 @@
   }
 }
 
+.suggestion-section-card-container{
+  display: flex !important;
+  flex-direction: row;
+}
+
 .suggestion-card{
   height: 500px;
   width: 400px;
@@ -381,6 +386,8 @@
   align-self: stretch;
   border-radius: 8px;
   background: $white;
+  margin-right: 20px;
+
 
   &__img{
     width: 100%;
@@ -400,4 +407,35 @@
   }
 
 
+}
+
+.suggestion-card-tag-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.suggestion-card-text{
+  color: $grey-2;
+  font-family: Sofia Pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%; /* 14.4px */
+}
+
+.read-more{
+  display: flex;
+  width: 35%;
+  align-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+
+  &__text{
+    @include link;
+    color: $blue;
+    font-feature-settings: 'liga' off;
+  }
 }
