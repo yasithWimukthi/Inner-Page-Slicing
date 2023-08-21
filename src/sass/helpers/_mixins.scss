@@ -9,7 +9,7 @@
 @mixin body-text{
   color: $white;
   /* Body */
-  font-family: Sofia Pro;
+  //font-family: Sofia Pro;
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
@@ -40,7 +40,7 @@
 
 // Tittle 6
 @mixin title-6{
-  font-family: Sofia Pro;
+  //font-family: Sofia Pro;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -49,7 +49,7 @@
 
 // Tittle 2
 @mixin title-2{
-  font-family: Sofia Pro;
+  //font-family: Sofia Pro;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -57,7 +57,7 @@
 }
 
 @mixin body-big{
-  font-family: Sofia Pro;
+  //font-family: Sofia Pro;
   font-size: 20px;
   font-style: normal;
   font-weight: 300;
@@ -65,7 +65,7 @@
 }
 
 @mixin body-small{
-  font-family: Sofia Pro;
+  //font-family: Sofia Pro;
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
@@ -73,7 +73,7 @@
 }
 
 @mixin title-4 {
-  font-family: Sofia Pro;
+  //font-family: Sofia Pro;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -81,7 +81,7 @@
 }
 
 @mixin body{
-  font-family: Sofia Pro;
+  //font-family: Sofia Pro;
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
@@ -90,7 +90,7 @@
 
 @mixin title-5{
   /* Title 5 */
-  font-family: Sofia Pro;
+  //font-family: Sofia Pro;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -98,9 +98,20 @@
 }
 
 @mixin link{
-  font-family: Sofia Pro;
+  //font-family: Sofia Pro;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
   line-height: 100%; /* 18px */
+}
+
+@mixin title-3{
+  color: var(--space-blue, #1C1F39);
+
+  /* Title 3 */
+  font-family: Sofia Pro;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 40.8px */
 }

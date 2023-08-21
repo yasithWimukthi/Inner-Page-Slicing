@@ -1,0 +1,60 @@
+.nav-bar{
+  .navbar{
+    background-color: $blue !important;
+  }
+
+  .navbar-collapse{
+    flex-grow: unset;
+  }
+
+  a{
+    text-decoration: none;
+    color: $white;
+    font-style: normal;
+    font-feature-settings: 'liga' off;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 100%; /* 16px */
+  }
+
+  a:hover{
+    color: $white;
+  }
+
+  .demo-btn{
+    display: flex;
+    padding: 15px 25px 13px 25px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid $white;
+    background-color: $blue;
+    color: $white;
+    transition: all 0.2s ease-in;
+  }
+
+  .demo-btn:hover{
+    background-color: $white;
+    color: $blue;
+  }
+
+  .try-free-btn{
+    display: flex;
+    padding: 15px 25px 13px 25px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(--gradient-2, linear-gradient(180deg, #F8D170 0%, #FEAC45 100%));
+    color: $grey-1;
+    font-feature-settings: 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    margin-left: 10px;
+    transition: all 0.2s ease-in;
+  }
+
+  .try-free-btn:hover{
+    background: #FFDA6F;
+  }
+}
