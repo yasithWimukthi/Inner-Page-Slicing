@@ -1,0 +1,35 @@
+.user-card{
+  display: flex;
+  padding: 40px;
+  align-items: flex-start;
+  gap: 40px;
+  background-color: $grey-3;
+  margin-bottom: 140px;
+
+  &__name{
+    color: $space-blue;
+    margin-bottom: 10px;
+    /* Title 3 */
+    @include title-3;
+  }
+
+  &__designation{
+    @include tag-text;
+    color: $space-blue;
+  }
+
+  &__description{
+    @include body-big;
+    color: $grey-dark;
+    margin-bottom: 30px;
+
+  }
+
+  .social-media-container{
+    justify-content: flex-start;
+
+    &__item:not(:last-child){
+      margin-right: 30px;
+    }
+  }
+}
